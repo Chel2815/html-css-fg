@@ -6,16 +6,23 @@
     --azul-secundario: #1E3E62;
     --preto-terciario: #000000;
     --laranja-terciario: #FF6500;
+    --branco: #FFFFFF;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: var(--fonte-principal);
+    
+}
+
+body {
+    background-color: var(--azul-principal);
+    box-sizing: border-box;
 }
 
 .cabecalho {
-    height: 15vh;
+    height: 7.5em;
     display: grid;
     justify-content:space-between;
     align-items: baseline;
@@ -34,11 +41,12 @@
 }
 
 .principal {
-    background-color: var(--azul-principal);
-    height: 75vh;
+    color: var(--branco);
+
 }
 
 .rodape {
     background-color: var(--azul-secundario);
-    height: 10vh;
+    padding: 24px;
+    text-align: center;
 }
