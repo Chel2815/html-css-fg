@@ -1,3 +1,40 @@
 .container__tela__principal {
     height: 100vh;
 }
+
+.principal{
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 0 25em 0 0;
+}
+
+.principal__titulo {
+    margin: 1em;
+}
+
+.principal__texto {
+    margin: 1em;
+    width: 40em;
+    text-align: justify;
+    
+}
+
+.principal__lista {
+    list-style-type: none;
+}
+
+
+
+.principal__video {
+    flex: 2;
+    
+}
