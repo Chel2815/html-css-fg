@@ -2,10 +2,12 @@
 
 :root {
     --fonte-principal:  "Poppins", sans-serif;
-    --cinza-principal: #50545dDA;
-    --cinza-secundario: #A3A9B5DA;
-    --preto-terciario: #040404;
-    --vermelho-terciario: #aa111a;
+    --azul-principal: #023892;
+    --cinza-secundario: #262b35;
+    --preto-terciario: #010101;
+    --rosa-escuro: #750664;
+    --azul-terciario: #013892;
+    --verde-agua: #0f756c;
     --vermelho-terciario-semitransparente: #AA111ADE;
     --branco: #FFFFFF;
 }
@@ -19,7 +21,7 @@
 
 body {
     box-sizing: border-box;
-    background-image: url(./img/background\ 1.jpeg);
+    background-image: url(./img/transferir.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
