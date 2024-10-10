@@ -23,7 +23,7 @@
 
 .principal__texto {
     margin: 1em;
-    width: 40em;
+    width: 40%;
     text-align: justify;
     
 }
@@ -36,5 +36,6 @@
 
 .principal__video {
     flex: 2;
+    width: 40%;
     
 }
